@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ABPAudioManager.h"
 
 @interface ABPMasterViewController : UITableViewController
+
+@property NSArray *audiobooks;
 
 @end

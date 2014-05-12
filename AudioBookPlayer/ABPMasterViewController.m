@@ -30,6 +30,7 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(audiobooksDidLoad) name:ABPLoadedNotification object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -109,5 +110,11 @@
         [[segue destinationViewController] setDetailItem:object];
     }
 }
+
+#pragma mark - NSNotificationCenter
+- (void)audiobooksDidLoad{
+    self.audiobooks = [ABPAudioManager sharedManger].audiobooks;
+}
+
 
 @end

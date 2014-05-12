@@ -22,6 +22,7 @@
 		75D7DB7619209F860020EE72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7DB5519209F860020EE72 /* UIKit.framework */; };
 		75D7DB7E19209F860020EE72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D7DB7C19209F860020EE72 /* InfoPlist.strings */; };
 		75D7DB8019209F860020EE72 /* AudioBookPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7DB7F19209F860020EE72 /* AudioBookPlayerTests.m */; };
+		75D7DB8B1920A4770020EE72 /* ABPAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7DB8A1920A4770020EE72 /* ABPAudioManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		75D7DB7B19209F860020EE72 /* AudioBookPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioBookPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		75D7DB7D19209F860020EE72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75D7DB7F19209F860020EE72 /* AudioBookPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioBookPlayerTests.m; sourceTree = "<group>"; };
+		75D7DB891920A4770020EE72 /* ABPAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPAudioManager.h; sourceTree = "<group>"; };
+		75D7DB8A1920A4770020EE72 /* ABPAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPAudioManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				75D7DB6319209F860020EE72 /* Main.storyboard */,
 				75D7DB6619209F860020EE72 /* ABPMasterViewController.h */,
 				75D7DB6719209F860020EE72 /* ABPMasterViewController.m */,
+				75D7DB891920A4770020EE72 /* ABPAudioManager.h */,
+				75D7DB8A1920A4770020EE72 /* ABPAudioManager.m */,
 				75D7DB6919209F860020EE72 /* ABPDetailViewController.h */,
 				75D7DB6A19209F860020EE72 /* ABPDetailViewController.m */,
 				75D7DB6C19209F860020EE72 /* Images.xcassets */,
@@ -205,6 +210,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = MichaelSelsky;
 				TargetAttributes = {
+					75D7DB4D19209F860020EE72 = {
+						DevelopmentTeam = 7VQ5B994UG;
+					};
 					75D7DB7119209F860020EE72 = {
 						TestTargetID = 75D7DB4D19209F860020EE72;
 					};
@@ -258,6 +266,7 @@
 				75D7DB6819209F860020EE72 /* ABPMasterViewController.m in Sources */,
 				75D7DB6B19209F860020EE72 /* ABPDetailViewController.m in Sources */,
 				75D7DB6219209F860020EE72 /* ABPAppDelegate.m in Sources */,
+				75D7DB8B1920A4770020EE72 /* ABPAudioManager.m in Sources */,
 				75D7DB5E19209F860020EE72 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioBookPlayer/AudioBookPlayer-Prefix.pch";
 				INFOPLIST_FILE = "AudioBookPlayer/AudioBookPlayer-Info.plist";
@@ -396,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AudioBookPlayer/AudioBookPlayer-Prefix.pch";
 				INFOPLIST_FILE = "AudioBookPlayer/AudioBookPlayer-Info.plist";
