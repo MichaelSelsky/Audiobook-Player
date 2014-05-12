@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75D7DB5219209F860020EE72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7DB5119209F860020EE72 /* Foundation.framework */; };
+		75D7DB5419209F860020EE72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7DB5319209F860020EE72 /* CoreGraphics.framework */; };
+		75D7DB5619209F860020EE72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7DB5519209F860020EE72 /* UIKit.framework */; };
+		75D7DB5C19209F860020EE72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D7DB5A19209F860020EE72 /* InfoPlist.strings */; };
+		75D7DB5E19209F860020EE72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7DB5D19209F860020EE72 /* main.m */; };
+		75D7DB6219209F860020EE72 /* ABPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7DB6119209F860020EE72 /* ABPAppDelegate.m */; };
+		75D7DB6519209F860020EE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7DB6319209F860020EE72 /* Main.storyboard */; };
+		75D7DB6819209F860020EE72 /* ABPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7DB6719209F860020EE72 /* ABPMasterViewController.m */; };
+		75D7DB6B19209F860020EE72 /* ABPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7DB6A19209F860020EE72 /* ABPDetailViewController.m */; };
+		75D7DB6D19209F860020EE72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7DB6C19209F860020EE72 /* Images.xcassets */; };
+		75D7DB7419209F860020EE72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7DB7319209F860020EE72 /* XCTest.framework */; };
+		75D7DB7519209F860020EE72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7DB5119209F860020EE72 /* Foundation.framework */; };
+		75D7DB7619209F860020EE72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7DB5519209F860020EE72 /* UIKit.framework */; };
+		75D7DB7E19209F860020EE72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D7DB7C19209F860020EE72 /* InfoPlist.strings */; };
+		75D7DB8019209F860020EE72 /* AudioBookPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7DB7F19209F860020EE72 /* AudioBookPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D7DB7719209F860020EE72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7DB4619209F860020EE72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D7DB4D19209F860020EE72;
+			remoteInfo = AudioBookPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75D7DB4E19209F860020EE72 /* AudioBookPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBookPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D7DB5119209F860020EE72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75D7DB5319209F860020EE72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75D7DB5519209F860020EE72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75D7DB5919209F860020EE72 /* AudioBookPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioBookPlayer-Info.plist"; sourceTree = "<group>"; };
+		75D7DB5B19209F860020EE72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75D7DB5D19209F860020EE72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75D7DB5F19209F860020EE72 /* AudioBookPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioBookPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		75D7DB6019209F860020EE72 /* ABPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABPAppDelegate.h; sourceTree = "<group>"; };
+		75D7DB6119209F860020EE72 /* ABPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABPAppDelegate.m; sourceTree = "<group>"; };
+		75D7DB6419209F860020EE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D7DB6619209F860020EE72 /* ABPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABPMasterViewController.h; sourceTree = "<group>"; };
+		75D7DB6719209F860020EE72 /* ABPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABPMasterViewController.m; sourceTree = "<group>"; };
+		75D7DB6919209F860020EE72 /* ABPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABPDetailViewController.h; sourceTree = "<group>"; };
+		75D7DB6A19209F860020EE72 /* ABPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABPDetailViewController.m; sourceTree = "<group>"; };
+		75D7DB6C19209F860020EE72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75D7DB7219209F860020EE72 /* AudioBookPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioBookPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D7DB7319209F860020EE72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75D7DB7B19209F860020EE72 /* AudioBookPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioBookPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		75D7DB7D19209F860020EE72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75D7DB7F19209F860020EE72 /* AudioBookPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioBookPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D7DB4B19209F860020EE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7DB5419209F860020EE72 /* CoreGraphics.framework in Frameworks */,
+				75D7DB5619209F860020EE72 /* UIKit.framework in Frameworks */,
+				75D7DB5219209F860020EE72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7DB6F19209F860020EE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7DB7419209F860020EE72 /* XCTest.framework in Frameworks */,
+				75D7DB7619209F860020EE72 /* UIKit.framework in Frameworks */,
+				75D7DB7519209F860020EE72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D7DB4519209F860020EE72 = {
+			isa = PBXGroup;
+			children = (
+				75D7DB5719209F860020EE72 /* AudioBookPlayer */,
+				75D7DB7919209F860020EE72 /* AudioBookPlayerTests */,
+				75D7DB5019209F860020EE72 /* Frameworks */,
+				75D7DB4F19209F860020EE72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75D7DB4F19209F860020EE72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7DB4E19209F860020EE72 /* AudioBookPlayer.app */,
+				75D7DB7219209F860020EE72 /* AudioBookPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D7DB5019209F860020EE72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D7DB5119209F860020EE72 /* Foundation.framework */,
+				75D7DB5319209F860020EE72 /* CoreGraphics.framework */,
+				75D7DB5519209F860020EE72 /* UIKit.framework */,
+				75D7DB7319209F860020EE72 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D7DB5719209F860020EE72 /* AudioBookPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				75D7DB6019209F860020EE72 /* ABPAppDelegate.h */,
+				75D7DB6119209F860020EE72 /* ABPAppDelegate.m */,
+				75D7DB6319209F860020EE72 /* Main.storyboard */,
+				75D7DB6619209F860020EE72 /* ABPMasterViewController.h */,
+				75D7DB6719209F860020EE72 /* ABPMasterViewController.m */,
+				75D7DB6919209F860020EE72 /* ABPDetailViewController.h */,
+				75D7DB6A19209F860020EE72 /* ABPDetailViewController.m */,
+				75D7DB6C19209F860020EE72 /* Images.xcassets */,
+				75D7DB5819209F860020EE72 /* Supporting Files */,
+			);
+			path = AudioBookPlayer;
+			sourceTree = "<group>";
+		};
+		75D7DB5819209F860020EE72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D7DB5919209F860020EE72 /* AudioBookPlayer-Info.plist */,
+				75D7DB5A19209F860020EE72 /* InfoPlist.strings */,
+				75D7DB5D19209F860020EE72 /* main.m */,
+				75D7DB5F19209F860020EE72 /* AudioBookPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D7DB7919209F860020EE72 /* AudioBookPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				75D7DB7F19209F860020EE72 /* AudioBookPlayerTests.m */,
+				75D7DB7A19209F860020EE72 /* Supporting Files */,
+			);
+			path = AudioBookPlayerTests;
+			sourceTree = "<group>";
+		};
+		75D7DB7A19209F860020EE72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D7DB7B19209F860020EE72 /* AudioBookPlayerTests-Info.plist */,
+				75D7DB7C19209F860020EE72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D7DB4D19209F860020EE72 /* AudioBookPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D7DB8319209F860020EE72 /* Build configuration list for PBXNativeTarget "AudioBookPlayer" */;
+			buildPhases = (
+				75D7DB4A19209F860020EE72 /* Sources */,
+				75D7DB4B19209F860020EE72 /* Frameworks */,
+				75D7DB4C19209F860020EE72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioBookPlayer;
+			productName = AudioBookPlayer;
+			productReference = 75D7DB4E19209F860020EE72 /* AudioBookPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D7DB7119209F860020EE72 /* AudioBookPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D7DB8619209F860020EE72 /* Build configuration list for PBXNativeTarget "AudioBookPlayerTests" */;
+			buildPhases = (
+				75D7DB6E19209F860020EE72 /* Sources */,
+				75D7DB6F19209F860020EE72 /* Frameworks */,
+				75D7DB7019209F860020EE72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D7DB7819209F860020EE72 /* PBXTargetDependency */,
+			);
+			name = AudioBookPlayerTests;
+			productName = AudioBookPlayerTests;
+			productReference = 75D7DB7219209F860020EE72 /* AudioBookPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D7DB4619209F860020EE72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ABP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MichaelSelsky;
+				TargetAttributes = {
+					75D7DB7119209F860020EE72 = {
+						TestTargetID = 75D7DB4D19209F860020EE72;
+					};
+				};
+			};
+			buildConfigurationList = 75D7DB4919209F860020EE72 /* Build configuration list for PBXProject "AudioBookPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D7DB4519209F860020EE72;
+			productRefGroup = 75D7DB4F19209F860020EE72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D7DB4D19209F860020EE72 /* AudioBookPlayer */,
+				75D7DB7119209F860020EE72 /* AudioBookPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D7DB4C19209F860020EE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7DB6D19209F860020EE72 /* Images.xcassets in Resources */,
+				75D7DB5C19209F860020EE72 /* InfoPlist.strings in Resources */,
+				75D7DB6519209F860020EE72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7DB7019209F860020EE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7DB7E19209F860020EE72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D7DB4A19209F860020EE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7DB6819209F860020EE72 /* ABPMasterViewController.m in Sources */,
+				75D7DB6B19209F860020EE72 /* ABPDetailViewController.m in Sources */,
+				75D7DB6219209F860020EE72 /* ABPAppDelegate.m in Sources */,
+				75D7DB5E19209F860020EE72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7DB6E19209F860020EE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7DB8019209F860020EE72 /* AudioBookPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D7DB7819209F860020EE72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D7DB4D19209F860020EE72 /* AudioBookPlayer */;
+			targetProxy = 75D7DB7719209F860020EE72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D7DB5A19209F860020EE72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7DB5B19209F860020EE72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75D7DB6319209F860020EE72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7DB6419209F860020EE72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D7DB7C19209F860020EE72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7DB7D19209F860020EE72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D7DB8119209F860020EE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75D7DB8219209F860020EE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D7DB8419209F860020EE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioBookPlayer/AudioBookPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioBookPlayer/AudioBookPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75D7DB8519209F860020EE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioBookPlayer/AudioBookPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioBookPlayer/AudioBookPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75D7DB8719209F860020EE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioBookPlayer.app/AudioBookPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioBookPlayer/AudioBookPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AudioBookPlayerTests/AudioBookPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75D7DB8819209F860020EE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioBookPlayer.app/AudioBookPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioBookPlayer/AudioBookPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioBookPlayerTests/AudioBookPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D7DB4919209F860020EE72 /* Build configuration list for PBXProject "AudioBookPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7DB8119209F860020EE72 /* Debug */,
+				75D7DB8219209F860020EE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D7DB8319209F860020EE72 /* Build configuration list for PBXNativeTarget "AudioBookPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7DB8419209F860020EE72 /* Debug */,
+				75D7DB8519209F860020EE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75D7DB8619209F860020EE72 /* Build configuration list for PBXNativeTarget "AudioBookPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7DB8719209F860020EE72 /* Debug */,
+				75D7DB8819209F860020EE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D7DB4619209F860020EE72 /* Project object */;
+}
